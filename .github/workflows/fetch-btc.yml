@@ -1,0 +1,68 @@
+name: Fetch BTC JSON and publish
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # каждые 30 минут (UTC)
+  workflow_dispatch:          # можно вручную запустить из Actions
+  push:
+    branches: [ "main" ]
+
+permissions:
+  contents: write       # чтобы коммитить
+  pages: write
+  id-token: write
+
+jobs:
+  fetch-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch upstream JSON
+        id: fetch
+        run: |
+          set -e
+          mkdir -p data
+          # источник — поменяй при необходимости:
+          SRC_URL="https://dollfan.club/1/btc.php"
+          # 3 попытки с таймаутом
+          for i in 1 2 3; do
+            if curl -fL --max-time 20 -H "Accept: application/json" "$SRC_URL" -o /tmp/btc.json; then
+              break
+            fi
+            echo "Retry $i..."
+            sleep 5
+          done
+          jq . /tmp/btc.json > data/btc.json
+
+      - name: Add metadata (timestamp)
+        run: |
+          TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          # встраиваем поле updated_at (если его нет)
+          jq --arg ts "$TS" '. + {updated_at: $ts}' data/btc.json > data/btc.json.tmp && mv data/btc.json.tmp data/btc.json
+
+      - name: Commit if changed
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- data/btc.json; then
+            git add data/btc.json
+            git commit -m "chore: update btc.json at $(date -u +'%F %T')"
+            git push
+          else
+            echo "No changes in data/btc.json"
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "data"   # публикуем только папку data
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
