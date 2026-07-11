@@ -1,42 +1,190 @@
 {
   "BTCUSDT": {
     "5m": {
-      "price": 64180,
-      "volume": 20.21,
-      "RSI": 48.47,
-      "Stoch_K": 58.61,
-      "Stoch_D": 67.59,
+      "price": 64209.99,
+      "volume": 14.88,
+      "RSI": 57.29,
+      "Stoch_K": 81.5,
+      "Stoch_D": 64.53,
       "MACD": {
-        "line": -4.28848799,
-        "signal": -6.79518079,
-        "histogram": 2.5066928
+        "line": 1.4655934,
+        "signal": -2.40798558,
+        "histogram": 3.87357898
       },
-      "EMA_50": 64191.152008,
-      "EMA_200": 64117.972836,
+      "EMA_50": 64186.75196,
+      "EMA_200": 64132.70408,
       "Bollinger_Bands": {
-        "upper": 64214.104063,
-        "middle": 64176.3435,
-        "lower": 64138.582937,
-        "bandwidth": 0.12
+        "upper": 64228.536637,
+        "middle": 64183.3895,
+        "lower": 64138.242363,
+        "bandwidth": 0.14
       },
-      "Volume_SMA_20": 36.69,
-      "ATR": 23.86928571,
-      "Williams_R": -41.39,
-      "CCI": 45.9,
+      "Volume_SMA_20": 31.65,
+      "ATR": 23.60071429,
+      "Williams_R": -18.5,
+      "CCI": 81.57,
       "ADX": {
-        "adx": 30.09,
-        "di_plus": 23.77,
-        "di_minus": 12.78
+        "adx": 14.05,
+        "di_plus": 29.33,
+        "di_minus": 22.1
       },
-      "OBV": -1373.88,
+      "OBV": -145.05,
       "Support_Resistance": {
-        "resistance": 64215.32,
-        "support": 64129.99,
-        "resistance_distance_pct": 0.06,
-        "support_distance_pct": 0.08
+        "resistance": 64228,
+        "support": 64130.65,
+        "resistance_distance_pct": 0.03,
+        "support_distance_pct": 0.12
       },
       "Parabolic_SAR": {
-        "sar": 64169.99,
+        "sar": 64130.65,
+        "trend": 1,
+        "is_bullish": true
+      },
+      "signal": "neutral",
+      "signal_score": 2,
+      "signal_details": [
+        "MACD_bullish",
+        "EMA_golden_cross",
+        "WilliamsR_overbought",
+        "SAR_bullish",
+        "Low_volume"
+      ]
+    },
+    "15m": {
+      "price": 64209.99,
+      "volume": 76.51,
+      "RSI": 52.62,
+      "Stoch_K": 81.62,
+      "Stoch_D": 59.25,
+      "MACD": {
+        "line": 1.75893214,
+        "signal": 3.73862586,
+        "histogram": -1.97969371
+      },
+      "EMA_50": 64168.194516,
+      "EMA_200": 63825.380768,
+      "Bollinger_Bands": {
+        "upper": 64276.169655,
+        "middle": 64200.504,
+        "lower": 64124.838345,
+        "bandwidth": 0.24
+      },
+      "Volume_SMA_20": 91.95,
+      "ATR": 48.38857143,
+      "Williams_R": -18.38,
+      "CCI": -15.96,
+      "ADX": {
+        "adx": 8.75,
+        "di_plus": 18.08,
+        "di_minus": 15.17
+      },
+      "OBV": 1228.83,
+      "Support_Resistance": {
+        "resistance": 64300,
+        "support": 64129.99,
+        "resistance_distance_pct": 0.14,
+        "support_distance_pct": 0.12
+      },
+      "Parabolic_SAR": {
+        "sar": 64224.14494,
+        "trend": -1,
+        "is_bullish": false
+      },
+      "signal": "neutral",
+      "signal_score": -2,
+      "signal_details": [
+        "MACD_bearish",
+        "EMA_golden_cross",
+        "WilliamsR_overbought",
+        "SAR_bearish"
+      ]
+    },
+    "1h": {
+      "price": 64209.99,
+      "volume": 167.75,
+      "RSI": 57.06,
+      "Stoch_K": 69.32,
+      "Stoch_D": 66.7,
+      "MACD": {
+        "line": 100.20803355,
+        "signal": 119.56897941,
+        "histogram": -19.36094586
+      },
+      "EMA_50": 63834.06279,
+      "EMA_200": 63096.914078,
+      "Bollinger_Bands": {
+        "upper": 64359.39627,
+        "middle": 64112.1315,
+        "lower": 63864.86673,
+        "bandwidth": 0.77
+      },
+      "Volume_SMA_20": 447.21,
+      "ATR": 128.78,
+      "Williams_R": -30.68,
+      "CCI": 63.6,
+      "ADX": {
+        "adx": 18.82,
+        "di_plus": 17.52,
+        "di_minus": 11.97
+      },
+      "OBV": 17736.44,
+      "Support_Resistance": {
+        "resistance": 64310,
+        "support": 63656,
+        "resistance_distance_pct": 0.16,
+        "support_distance_pct": 0.86
+      },
+      "Parabolic_SAR": {
+        "sar": 63794.983591,
+        "trend": 1,
+        "is_bullish": true
+      },
+      "signal": "neutral",
+      "signal_score": 1,
+      "signal_details": [
+        "MACD_bearish",
+        "EMA_golden_cross",
+        "SAR_bullish",
+        "Low_volume"
+      ]
+    },
+    "4h": {
+      "price": 64209.99,
+      "volume": 576.06,
+      "RSI": 60.77,
+      "Stoch_K": 78.32,
+      "Stoch_D": 80.83,
+      "MACD": {
+        "line": 396.44682501,
+        "signal": 335.98723643,
+        "histogram": 60.45958858
+      },
+      "EMA_50": 63005.174187,
+      "EMA_200": 62627.238821,
+      "Bollinger_Bands": {
+        "upper": 65061.91558,
+        "middle": 63342.719,
+        "lower": 61623.52242,
+        "bandwidth": 5.43
+      },
+      "Volume_SMA_20": 2621.57,
+      "ATR": 526.92714286,
+      "Williams_R": -21.68,
+      "CCI": 76.27,
+      "ADX": {
+        "adx": 33.18,
+        "di_plus": 21.16,
+        "di_minus": 10.61
+      },
+      "OBV": -22365.76,
+      "Support_Resistance": {
+        "resistance": 64692.83,
+        "support": 61544.56,
+        "resistance_distance_pct": 0.75,
+        "support_distance_pct": 4.15
+      },
+      "Parabolic_SAR": {
+        "sar": 62979.157788,
         "trend": 1,
         "is_bullish": true
       },
@@ -46,154 +194,6 @@
         "MACD_bullish",
         "EMA_golden_cross",
         "Strong_trend",
-        "SAR_bullish"
-      ]
-    },
-    "15m": {
-      "price": 64180,
-      "volume": 29.38,
-      "RSI": 49.06,
-      "Stoch_K": 29.42,
-      "Stoch_D": 29.58,
-      "MACD": {
-        "line": 2.80189023,
-        "signal": 10.22312573,
-        "histogram": -7.4212355
-      },
-      "EMA_50": 64162.112967,
-      "EMA_200": 63851.510711,
-      "Bollinger_Bands": {
-        "upper": 64282.901617,
-        "middle": 64205.166,
-        "lower": 64127.430383,
-        "bandwidth": 0.24
-      },
-      "Volume_SMA_20": 87.52,
-      "ATR": 51.58642857,
-      "Williams_R": -70.58,
-      "CCI": -47.42,
-      "ADX": {
-        "adx": 14.76,
-        "di_plus": 19.35,
-        "di_minus": 14.37
-      },
-      "OBV": 1111.63,
-      "Support_Resistance": {
-        "resistance": 64300,
-        "support": 64129.99,
-        "resistance_distance_pct": 0.19,
-        "support_distance_pct": 0.08
-      },
-      "Parabolic_SAR": {
-        "sar": 64232.693551,
-        "trend": -1,
-        "is_bullish": false
-      },
-      "signal": "neutral",
-      "signal_score": -1,
-      "signal_details": [
-        "MACD_bearish",
-        "EMA_golden_cross",
-        "SAR_bearish",
-        "Low_volume"
-      ]
-    },
-    "1h": {
-      "price": 64180,
-      "volume": 389.88,
-      "RSI": 55.84,
-      "Stoch_K": 60.44,
-      "Stoch_D": 71.54,
-      "MACD": {
-        "line": 108.62646786,
-        "signal": 129.08529714,
-        "histogram": -20.45882928
-      },
-      "EMA_50": 63802.543004,
-      "EMA_200": 63038.566835,
-      "Bollinger_Bands": {
-        "upper": 64357.356599,
-        "middle": 64089.1575,
-        "lower": 63820.958401,
-        "bandwidth": 0.84
-      },
-      "Volume_SMA_20": 475.18,
-      "ATR": 145.87142857,
-      "Williams_R": -39.56,
-      "CCI": 68.03,
-      "ADX": {
-        "adx": 24.19,
-        "di_plus": 18.47,
-        "di_minus": 11.27
-      },
-      "OBV": 18660.68,
-      "Support_Resistance": {
-        "resistance": 64310,
-        "support": 63656,
-        "resistance_distance_pct": 0.2,
-        "support_distance_pct": 0.82
-      },
-      "Parabolic_SAR": {
-        "sar": 63752.022125,
-        "trend": 1,
-        "is_bullish": true
-      },
-      "signal": "neutral",
-      "signal_score": 1,
-      "signal_details": [
-        "MACD_bearish",
-        "EMA_golden_cross",
-        "SAR_bullish"
-      ]
-    },
-    "4h": {
-      "price": 64180,
-      "volume": 1327.78,
-      "RSI": 60.46,
-      "Stoch_K": 81.26,
-      "Stoch_D": 81.78,
-      "MACD": {
-        "line": 395.34957819,
-        "signal": 320.58522401,
-        "histogram": 74.76435418
-      },
-      "EMA_50": 62955.22392,
-      "EMA_200": 62584.412754,
-      "Bollinger_Bands": {
-        "upper": 64955.75359,
-        "middle": 63275.737,
-        "lower": 61595.72041,
-        "bandwidth": 5.31
-      },
-      "Volume_SMA_20": 2696.06,
-      "ATR": 614.745,
-      "Williams_R": -18.74,
-      "CCI": 86.38,
-      "ADX": {
-        "adx": 33.18,
-        "di_plus": 21.4,
-        "di_minus": 10.74
-      },
-      "OBV": -19216.91,
-      "Support_Resistance": {
-        "resistance": 64692.83,
-        "support": 61544.56,
-        "resistance_distance_pct": 0.8,
-        "support_distance_pct": 4.11
-      },
-      "Parabolic_SAR": {
-        "sar": 62830.142813,
-        "trend": 1,
-        "is_bullish": true
-      },
-      "signal": "neutral",
-      "signal_score": 1,
-      "signal_details": [
-        "Stoch_overbought",
-        "MACD_bullish",
-        "EMA_golden_cross",
-        "WilliamsR_overbought",
-        "Strong_trend",
         "SAR_bullish",
         "Low_volume"
       ]
@@ -201,187 +201,197 @@
   },
   "ETHUSDT": {
     "5m": {
-      "price": 1799.86,
-      "volume": 92.42,
-      "RSI": 55.57,
-      "Stoch_K": 69.63,
-      "Stoch_D": 75.23,
+      "price": 1802.45,
+      "volume": 203.27,
+      "RSI": 63.63,
+      "Stoch_K": 96.64,
+      "Stoch_D": 85.8,
       "MACD": {
-        "line": 0.30071596,
-        "signal": 0.02827845,
-        "histogram": 0.27243751
+        "line": 0.55267577,
+        "signal": 0.32321647,
+        "histogram": 0.2294593
       },
-      "EMA_50": 1798.941893,
-      "EMA_200": 1796.091744,
+      "EMA_50": 1799.60574,
+      "EMA_200": 1797.46524,
       "Bollinger_Bands": {
-        "upper": 1800.626174,
-        "middle": 1798.599,
-        "lower": 1796.571826,
-        "bandwidth": 0.23
+        "upper": 1802.081904,
+        "middle": 1800.1435,
+        "lower": 1798.205096,
+        "bandwidth": 0.22
       },
-      "Volume_SMA_20": 302.87,
-      "ATR": 1.06214286,
-      "Williams_R": -30.37,
-      "CCI": 120.82,
+      "Volume_SMA_20": 257.83,
+      "ATR": 1.20214286,
+      "Williams_R": -3.36,
+      "CCI": 230.66,
       "ADX": {
-        "adx": 14.33,
-        "di_plus": 22.86,
-        "di_minus": 17.13
+        "adx": 31.92,
+        "di_plus": 34.51,
+        "di_minus": 17.81
       },
-      "OBV": 8826.72,
+      "OBV": 9899.04,
       "Support_Resistance": {
-        "resistance": 1801.02,
-        "support": 1795.59,
-        "resistance_distance_pct": 0.06,
-        "support_distance_pct": 0.24
+        "resistance": 1802.59,
+        "support": 1798.42,
+        "resistance_distance_pct": 0.01,
+        "support_distance_pct": 0.22
       },
       "Parabolic_SAR": {
-        "sar": 1798.53124,
+        "sar": 1798.854374,
         "trend": 1,
         "is_bullish": true
       },
-      "signal": "buy",
-      "signal_score": 3,
+      "signal": "neutral",
+      "signal_score": 0,
       "signal_details": [
+        "Stoch_overbought",
         "MACD_bullish",
         "EMA_golden_cross",
-        "SAR_bullish",
-        "Low_volume"
+        "BB_overbought",
+        "WilliamsR_overbought",
+        "Strong_trend",
+        "SAR_bullish"
       ]
     },
     "15m": {
-      "price": 1799.86,
-      "volume": 717.58,
-      "RSI": 54.04,
-      "Stoch_K": 56.27,
-      "Stoch_D": 53.44,
+      "price": 1802.45,
+      "volume": 623.4,
+      "RSI": 61.63,
+      "Stoch_K": 98.1,
+      "Stoch_D": 84.67,
       "MACD": {
-        "line": 0.35681948,
-        "signal": 0.47418926,
-        "histogram": -0.11736978
+        "line": 0.66010919,
+        "signal": 0.50590173,
+        "histogram": 0.15420747
       },
-      "EMA_50": 1797.318423,
-      "EMA_200": 1782.714809,
+      "EMA_50": 1798.004553,
+      "EMA_200": 1782.011004,
       "Bollinger_Bands": {
-        "upper": 1802.828672,
-        "middle": 1799.6145,
-        "lower": 1796.400328,
+        "upper": 1802.752378,
+        "middle": 1799.5345,
+        "lower": 1796.316622,
         "bandwidth": 0.36
       },
-      "Volume_SMA_20": 943.91,
-      "ATR": 2.46357143,
-      "Williams_R": -43.73,
-      "CCI": 19.51,
+      "Volume_SMA_20": 809.53,
+      "ATR": 2.12571429,
+      "Williams_R": -1.9,
+      "CCI": 125.37,
       "ADX": {
-        "adx": 15.08,
-        "di_plus": 20.97,
-        "di_minus": 15.47
+        "adx": 31.71,
+        "di_plus": 24.51,
+        "di_minus": 12.71
       },
-      "OBV": 56243.82,
+      "OBV": 60459.5,
       "Support_Resistance": {
         "resistance": 1803.52,
         "support": 1795.15,
-        "resistance_distance_pct": 0.2,
-        "support_distance_pct": 0.26
+        "resistance_distance_pct": 0.06,
+        "support_distance_pct": 0.41
       },
       "Parabolic_SAR": {
-        "sar": 1795.2674,
+        "sar": 1796.541459,
         "trend": 1,
         "is_bullish": true
       },
       "signal": "neutral",
       "signal_score": 1,
       "signal_details": [
-        "MACD_bearish",
+        "Stoch_overbought",
+        "MACD_bullish",
         "EMA_golden_cross",
+        "WilliamsR_overbought",
+        "Strong_trend",
         "SAR_bullish"
       ]
     },
     "1h": {
-      "price": 1799.86,
-      "volume": 3798.96,
-      "RSI": 58.92,
-      "Stoch_K": 78.15,
-      "Stoch_D": 66.37,
+      "price": 1802.45,
+      "volume": 1442.16,
+      "RSI": 60.95,
+      "Stoch_K": 93.61,
+      "Stoch_D": 85.01,
       "MACD": {
-        "line": 5.50903435,
-        "signal": 6.44172524,
-        "histogram": -0.93269089
+        "line": 5.3471163,
+        "signal": 6.0575223,
+        "histogram": -0.71040599
       },
-      "EMA_50": 1782.422648,
-      "EMA_200": 1761.236811,
+      "EMA_50": 1783.900707,
+      "EMA_200": 1763.772409,
       "Bollinger_Bands": {
-        "upper": 1803.840447,
-        "middle": 1795.2335,
-        "lower": 1786.626553,
-        "bandwidth": 0.96
+        "upper": 1804.8306,
+        "middle": 1796.116,
+        "lower": 1787.4014,
+        "bandwidth": 0.97
       },
-      "Volume_SMA_20": 4769.92,
-      "ATR": 6.17571429,
-      "Williams_R": -21.85,
-      "CCI": 89.84,
+      "Volume_SMA_20": 4300.4,
+      "ATR": 6.00285714,
+      "Williams_R": -6.39,
+      "CCI": 108.74,
       "ADX": {
-        "adx": 21.53,
-        "di_plus": 19.07,
-        "di_minus": 12.31
+        "adx": 25.2,
+        "di_plus": 19.35,
+        "di_minus": 11.56
       },
-      "OBV": 60619.71,
+      "OBV": 45586.38,
       "Support_Resistance": {
         "resistance": 1803.52,
         "support": 1781.2,
-        "resistance_distance_pct": 0.2,
-        "support_distance_pct": 1.04
+        "resistance_distance_pct": 0.06,
+        "support_distance_pct": 1.18
       },
       "Parabolic_SAR": {
-        "sar": 1779.278485,
+        "sar": 1781.17902,
         "trend": 1,
         "is_bullish": true
       },
       "signal": "neutral",
-      "signal_score": 1,
+      "signal_score": -1,
       "signal_details": [
+        "Stoch_overbought",
         "MACD_bearish",
         "EMA_golden_cross",
-        "SAR_bullish"
+        "WilliamsR_overbought",
+        "Strong_trend",
+        "SAR_bullish",
+        "Low_volume"
       ]
     },
     "4h": {
-      "price": 1799.85,
-      "volume": 12969.89,
-      "RSI": 61.42,
-      "Stoch_K": 85.12,
-      "Stoch_D": 84.86,
+      "price": 1802.45,
+      "volume": 4245.31,
+      "RSI": 62.22,
+      "Stoch_K": 88.06,
+      "Stoch_D": 86.88,
       "MACD": {
-        "line": 12.53444475,
-        "signal": 8.66705707,
-        "histogram": 3.86738768
+        "line": 13.07432965,
+        "signal": 9.55654991,
+        "histogram": 3.51777974
       },
-      "EMA_50": 1751.500552,
-      "EMA_200": 1701.468736,
+      "EMA_50": 1753.525755,
+      "EMA_200": 1703.872308,
       "Bollinger_Bands": {
-        "upper": 1817.254405,
-        "middle": 1765.0435,
-        "lower": 1712.832595,
-        "bandwidth": 5.92
+        "upper": 1821.944957,
+        "middle": 1767.3625,
+        "lower": 1712.780043,
+        "bandwidth": 6.18
       },
-      "Volume_SMA_20": 31065.3,
-      "ATR": 20.20357143,
-      "Williams_R": -14.88,
-      "CCI": 104.14,
+      "Volume_SMA_20": 30018.14,
+      "ATR": 18.215,
+      "Williams_R": -11.94,
+      "CCI": 95.57,
       "ADX": {
         "adx": 36,
-        "di_plus": 23.1,
-        "di_minus": 10.87
+        "di_plus": 22.77,
+        "di_minus": 10.72
       },
-      "OBV": 52035.16,
+      "OBV": 8668.6,
       "Support_Resistance": {
         "resistance": 1812,
         "support": 1713.44,
-        "resistance_distance_pct": 0.68,
-        "support_distance_pct": 4.8
+        "resistance_distance_pct": 0.53,
+        "support_distance_pct": 4.94
       },
       "Parabolic_SAR": {
-        "sar": 1753.027734,
+        "sar": 1757.745515,
         "trend": 1,
         "is_bullish": true
       },
@@ -398,5 +408,5 @@
       ]
     }
   },
-  "updated_at": "2026-07-11T11:53:48Z"
+  "updated_at": "2026-07-11T13:22:42Z"
 }
